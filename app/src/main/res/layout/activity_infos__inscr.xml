@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_blue"
+    tools:context="com.vibeviroma.vaincrelemal229.Infos_Inscr">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_above="@+id/valider"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""
+                android:id="@+id/p"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Prénom"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:textColor="#ff000000"
+                android:singleLine="true"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""
+                android:id="@+id/n"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Nom"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:textColor="#ff000000"
+                android:singleLine="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Indicatif"
+                android:textColor="#ff000000"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/ind"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Phone 1"
+                android:inputType="phone"
+                android:id="@+id/p1"
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                android:drawableStart="@drawable/ic_call_black_24dp"
+                android:textColor="#ff000000"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""
+                android:id="@+id/p2"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Phone 2"
+                android:maxLength="8"
+                android:inputType="phone"
+                android:enabled="false"
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                android:drawableStart="@drawable/ic_call_black_24dp"
+                android:textColor="#ff000000"
+                android:singleLine="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Choisir une photo d'identifiation (facultatif)"
+                android:textColor="#ff000000"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/image"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:src="@drawable/ic_person_black_100dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/valider"
+        android:background="@color/colorPrimar"
+        android:layout_alignParentBottom="true"
+        android:text="VALIDER"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#ffffffff"/>
+
+</RelativeLayout>

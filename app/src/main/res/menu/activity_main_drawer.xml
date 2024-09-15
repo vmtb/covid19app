@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="Appeler le SAMU"/>  <!--
+        <item
+            android:id="@+id/conseils"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Conseils de votre résultat" />-->
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Rechercher une ville" />
+       <!-- <item
+            android:id="@+id/ref"
+            android:icon="@drawable/ic_refresh_black_24dp"
+            android:title="Actualiser" />-->
+       <!-- <item
+            android:id="@+id/nav_slideshow"
+
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="Localisation Entrants" />-->
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="Localisation Sortante" />
+    </group>
+
+    <item android:title="Infos">
+        <menu>
+
+            <item
+                android:id="@+id/don"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Nous écrire sur Whatsapp" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="#VIBE-VIROMA#" />
+
+        </menu>
+    </item>
+
+</menu>

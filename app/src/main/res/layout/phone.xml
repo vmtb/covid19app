@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:id="@+id/mp_connecter"
+            android:hint="Numéro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:textColorHint="#ffffffff"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/forme_login"
+            android:inputType="phone"
+            android:layout_gravity="center_horizontal" />
+
+
+    <EditText
+        android:id="@+id/code"
+        android:hint="Code de vérification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:maxLength="6"
+        android:gravity="center"
+        android:background="@drawable/forme_login"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/compt"
+        android:text="Expire dans "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimar"
+        android:layout_margin="20dp"
+        android:text="VERIFIER"
+        android:textSize="18sp"
+        android:id="@+id/btn_time"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+</LinearLayout>

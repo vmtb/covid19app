@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vibeviroma.vaincrelemal229.MapsActivity" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test en date du "
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:id="@+id/pos"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"/>
+
+    <com.vibeviroma.vaincrelemal229.ui.Termo
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/thermometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:topColor="#f00f"
+        app:middleColor="#fff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        app:bottomColor="#ff00"
+        android:padding="50dp"/>
+
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="00%"
+        android:textColor="#f00f"
+        android:layout_centerVertical="true"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/cliq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="\tConseils"
+        android:textColor="@color/colorPrimar"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone"
+        android:layout_below="@+id/res"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/valider"
+        android:background="@color/colorPrimar"
+        android:layout_alignParentBottom="true"
+        android:text="DEMARRER"
+        android:textSize="18sp"
+        android:textColor="#ffffffff"/>
+
+
+
+
+</RelativeLayout>

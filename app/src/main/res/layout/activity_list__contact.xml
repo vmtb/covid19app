@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vibeviroma.vaincrelemal229.List_Contact">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:id="@+id/list_item"
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp"
+        />
+
+</LinearLayout>

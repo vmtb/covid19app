@@ -1,0 +1,357 @@
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fnd3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:id="@+id/zone"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/localisation"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    
+                    android:textColor="@color/colorPrimar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Voir les tests de votre zone"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:id="@+id/test"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/test"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    
+                    android:textColor="@color/colorPrimar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Passez un test"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:id="@+id/conseils"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/conseils"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    
+                    android:textColor="@color/colorPrimar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Conseils de votre résultat de test"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:id="@+id/search"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/search"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    
+                    android:textColor="@color/colorPrimar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Voir les cas de tests d'une ville"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:id="@+id/gouv"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/gouv"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    
+                    android:textColor="@color/colorPrimar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Derniers cas et mesures fortes du Bénin"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:id="@+id/symp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/covid"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    
+                    android:textColor="@color/colorPrimar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Que savoir des symptômes?"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:id="@+id/oms"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    
+                    android:layout_width="200dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/oms"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    
+                    android:textColor="@color/colorPrimar"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Recommandations de l'OMS"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+
+
+
+
+
+    </LinearLayout>
+    <!--<fragment
+
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="viroma_soft_pro.com.truelocation.MainActivity" />
+-->
+</ScrollView>

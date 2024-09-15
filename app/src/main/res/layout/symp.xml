@@ -1,0 +1,470 @@
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fnd3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="QUE SAVOIR DES SYMPTÔMES ?"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_height="50dp"/>
+
+         <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/symptome"
+            android:layout_height="wrap_content"/>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:id="@+id/res"
+                android:layout_gravity="center"
+                android:text="Plus l'épidémie de coronavirus fait de malades, plus la liste des symptômes s'allonge. Parmi les nouveaux effets du virus Sars-CoV-2 observés : des atteintes dermatologiques et neurologiques. Mais aussi des études qui confirment la présence de nombreux cas asymptomatiques. "
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Au début, un simple rhume ou un état grippal!"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="@string/gorge"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Avec ou sans fièvre"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="Parmi les premiers signes du coronavirus qui ont été évoqués : la fièvre. La fièvre est effectivement une réponse de l'organisme qui se bat contre une infection. Elle est présente chez de nombreux malades du Covid-19, sans être forcément très élevée. Dans un rapport de l'OMS publié en février, relayant une étude sur 55 924 malades chinois testés positifs au coronavirus, la fièvre était présente chez 88% des sondés. Elle peut se situer autour de 37,5-38° par exemple. Elle peut aussi être absente ce qui ne veut pas dire qu'une infection par le coronavirus est exclue. Certains malades testés positifs au Covid-19 n'ont pas de fièvre."
+            />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Des maux de tête parfois intenses"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="Le virus Sars-CoV-2 peut aussi entraîner des maux de tête, parfois très intenses. Dans l'étude chinoise citée plus haut, 14% des malades avaient mal à la tête. Olivier Sadou nous avait rapporté des maux de tête 'violents' comme rarement il avait eu."
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Un mal de gorge, comme une angine"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="Une infection à coronavirus peut entraîner un mal de gorge. Comme le rappelait (plus haut) le Pr Lacombe, parmi ses signes, des malades rapportent des angines."
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="La perte du goût et de l'odorat surtout chez les jeunes"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="C'est un symptôme inattendu et assez surprenant. Plusieurs ORL et infectiologues français ont constaté la survenue de perte brutale de l'odorat (appelée aussi 'anosmie') souvent associée à une perte du goût (agueusie) mais sans obstruction nasale, chez des patients suspects ou confirmés COVID-19. Souvent chez des malades'plutôt jeunes' et ayant des formes 'peu sévères' de la maladie, rapportait le Pr Jérôme Salomon."
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Des symptômes digestifs particulièrement chez les plus âgés"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="Des troubles digestifs (diarrhées, vomissements...) peuvent survenir en cas de contamination par le coronavirus. Une étude américaine publiée en mars sur des patients atteints du coronavirus en Chine montre que sur 107 hommes et 97 femmes âgés en moyenne de 54,9 ans, près de la moitié (48,5%) s'est rendue à l'hôpital pour des troubles digestifs tels que de la diarrhée (29,3%), des vomissements (8%) ou des douleurs abdominales (4%). Ces symptômes étaient plus prédominants quand les sujets présentaient une forme grave de l'infection. Parmi les sujets atteints de troubles digestifs, sept n'avaient aucun signe d'atteinte respiratoire."
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Dyspnée et détresse respiratoire"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="'Environ une personne sur six contractant la maladie présente des symptômes plus graves, notamment une dyspnée', indique l'OMS. La dyspnée correspond à des difficultés respiratoires. Concrètement 'ce sont des signes de pneumonie donc d'infection du poumon. C'est globalement un taux d'oxygène qui va baisser et un syndrome infectieux qui va augmenter, de la fièvre qui augmente, des difficultés respiratoires, on cherche de l'air, on s'étouffe un peu de l'intérieur, la fréquence respiratoire augmente, les ongles sont un peu bleutés' décrit le Dr Gérald Kierzek, médecin urgentiste à l'Hôtel-Dieu. "
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Des symptômes dermatologiques, plusieurs jours après le début de l'infection"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="Les atteintes dermatologiques sont des nouvelles manifestations décrites début avril chez des malades du coronavirus. Les dermatologues ont tout d'abord été alertés par quelques cas de taches rouges (érythème) sur le visage de patients infectés par le Covid-19. Dans un communiqué du 6 avril, le Syndicat national des dermatologues-vénérologues (SNDV) rapporte que plus de 400 dermatologues ont constaté des lésions cutanées chez ces patients.''Il s'agit d'acrosyndromes (aspect de pseudo-engelures des extrémités), apparition subite de rougeurs persistantes parfois douloureuses, et des lésions d'urticaire passagères'' précisent-ils. "
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/bord_blanc"
+            android:layout_margin="10dp"
+            android:text="Un virus asymptomatique chez beaucoup de malades"
+            android:textColor="#f00f"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="Les autorités et scientifiques le disent depuis le début de l'épidémie, le coronavirus peut avoir infecté une personne sans entraîner de symptômes. Dans ce cas, la personne est dite 'asymptomatique' mais est quand même contagieuse. Selon une étude chinoise publiée le 9 avril 2020 dans le BMJ, les formes asymptomatiques seraient plus nombreuses qu'estimées par l'OMS en février dernier. D'après leurs observations effectuées sur les 24 heures précédant l'après-midi du 1er avril (une période très courte donc), 130 des 166 nouvelles infections (78%) identifiées étaient asymptomatiques, a indiqué la Commission nationale de la santé de la Chine. Selon Tom Jefferson, épidémiologiste et chercheur au Centre médical de l'Université d'Oxford, ces résultats sont 'très très importants' : 'L'échantillon est petit et plus de données sont disponibles. De plus, on ne sait pas exactement comment ces cas ont été identifiés. Mais disons qu'ils sont généralisables. Cela suggère que le virus est partout. Si - et j'insiste, si - les résultats sont représentatifs, alors nous devons nous demander: 'Pour quoi diable allons-nous nous enfermer?'. Pour le chercheur, il est fort probable que le virus circule depuis plus longtemps qu'on ne le pense et que de larges pans de la population ont déjà été exposés. Une autre étude publiée le 23 mars 2020 par Sergio Romagnani, professeur d'immunologie clinique à l'Université de Florence (Italie), a aussi montré que la plupart des personnes infectées par covid-19 ne présentent aucun symptôme mais sont toujours capables d'en infecter d'autres, ce qui, selon lui, a d'énormes implications pour les politiques de dépistage, en particulier dans les hôpitaux."
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            app:cardElevation="14dp"
+            android:padding="60dp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/carre"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:autoLink="all"
+                android:text="Les informations ont été recuillies sur les sites https://sante.journaldesfemmes.fr/ , https://www.linternaute.com/actualite/guide-vie-quotidienne"
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    <!--<fragment
+
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="viroma_soft_pro.com.truelocation.MainActivity" />
+-->
+</ScrollView>

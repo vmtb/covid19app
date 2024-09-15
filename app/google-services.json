@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "882683573432",
+    "firebase_url": "https://vaincrelemal229.firebaseio.com",
+    "project_id": "vaincrelemal229",
+    "storage_bucket": "vaincrelemal229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882683573432:android:a94823d7500e71d101b04d",
+        "android_client_info": {
+          "package_name": "com.vibeviroma.vaincrelemal229"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882683573432-e5ur8rm0nqgk666ei8m9c6lovf74ali9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibeviroma.vaincrelemal229",
+            "certificate_hash": "1330abfaccdf8795c80ddc98203cebb6876e61da"
+          }
+        },
+        {
+          "client_id": "882683573432-tgfkceqpi0qq52t2sspkktnl5rreemcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa1uUgfQSuRx_3KcV_11khZZKekGxb4iM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882683573432-tgfkceqpi0qq52t2sspkktnl5rreemcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

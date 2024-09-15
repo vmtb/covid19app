@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Termo">
+        <attr name="radius" format="dimension"/>
+        <attr name="bottomColor" format="color"/>
+        <attr name="middleColor" format="color"/>
+        <attr name="topColor" format="color"/>
+    </declare-styleable>
+</resources>

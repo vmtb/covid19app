@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ville"
+        android:hint="Rechercher...ville"
+        android:singleLine="true"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/valider"
+        android:background="@color/colorPrimar"
+        android:text="VALIDER"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/ville"
+        android:textColor="#ffffffff"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/list"
+        android:layout_below="@+id/valider"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>

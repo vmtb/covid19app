@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VaincreLeMal229</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps3">Map</string>
+    <string name="title_activity_test">Test</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="gorge">Dans plus de 80% des cas, les signes (d une infection par le coronavirus) sont mineurs. Ce sont des angines ou des rhinopharyngites indiquait le Pr Karine Lacombe, cheffe de service des maladies infectieuses à l hôpital Saint-Antoine à Paris, lors d un point de presse le 28 mars 2020. En effet, les premiers malades du coronavirus ont décrit les symptômes du rhume (nez qui coule, fatigue...) mais aussi un état grippal qui peut être puissant comme nous l expliquait Olivier Sadou, infecté par le coronavirus, au mois de mars. Des courbatures et une sensation d abattement général font aussi partie des symptômes de l infection</string>
+
+    <string name="home_second">Home Second</string>
+</resources>

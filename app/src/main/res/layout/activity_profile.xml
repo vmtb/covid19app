@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vibeviroma.vaincrelemal229.Profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/img"
+                android:background="@color/colorPrimar"
+                android:src="@drawable/ic_person_black_100dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Prénom NOM"
+                android:padding="10dp"
+                android:id="@+id/name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:background="#ffffffff"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Phone 1"
+                android:padding="10dp"
+                android:id="@+id/p1"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:background="#ffffffff"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp"
+                android:text="Phone 2"
+                android:padding="10dp"
+                android:id="@+id/p2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:background="#ffffffff"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp"
+                android:text="Coordonnées: "
+                android:padding="10dp"
+                android:id="@+id/coor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:background="#ffffffff"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp"
+                android:text="Position Actuelle: "
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:id="@+id/pos"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:background="#ffffffff"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"
+                android:text="Confidentialité"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:textColor="#ff000000"
+                android:gravity="center_horizontal"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimar"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bloquer ma position \n sur mes coordonnées actuelles"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="normal"
+                    android:textColor="#fff"
+                    android:gravity="center_horizontal"
+                    />
+                <CheckBox
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/cb"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginEnd="12dp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Si vous bloquez votre position sur vos coordonnées actuelles, vos contacts ne pourront plus localiser votre réelle position après ceci. Votre emplacement sera condamnée ici, sur votre position actuelle"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="normal"
+                android:textColor="#ff000000"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"
+                android:text="Mes contacts"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/contact"
+                android:background="#ffffffff"
+                android:textColor="#ff000000"
+                android:gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
